@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>body{
+    text-align: center;
+  }
+  section{
+  background-position: center;
+  background-color: lightgrey;
+  height:20rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  border-radius: 2rem; 
+  font: bold 1.0rem arial, sans-serif;
+  }
+  footer{
+    font: italic bold 1.0rem arial, sans-serif;
+    margin-top: 2.5rem;
+  }
+  div#foto{
+    height: 31.25rem;
+    width: 31.25rem;
+  }
+  </style>
+  <title>TESTE PAGE</title>
+</head>
+<body>
+  <div id="foto">
+    <img src="logo.png" alt="logo do programador ygor" onclick="turtle()">
+
+  </div>
+  
+  <section>
+      <div id="sombra">
+        <h1>ESTOU TESTANDO SE A ROTA CHEGA AQUI</h1>
+        <p>Está é uma implementação EJS no projeto da Magalivros, você encontra todo o codigo fonte disponivel no Github, aperte o botão para ver mais.</p>
+        <a href="https://github.com/ygorxds/MAGALIVROS-BACKEND"><input type="button" value="BACKEND" ></a>
+      </div>
+  </section>
+  
+  <footer>
+    <h3>© Desenvolvido por Ygor Tecnology</h3>
+  </footer>
+  <script >
+
+    function turtle() {
+  const video = document.getElementById('foto');
+
+  alert("Não copie e cole esse link no navegador")
+
+  video.innerHTML = "https://youtu.be/dTC7FnKbkn4?t=20"
+}
+
+  </script>
+</body>
+</html>
